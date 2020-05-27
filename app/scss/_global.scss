@@ -1,0 +1,128 @@
+@import "vars";
+@import "mixins";
+html {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner__title,
+.advantages__title,
+.certificate__title,
+.feedback__title {
+  font-family: 'BoschSerif-Regular';
+  font-weight: 400;
+  letter-spacing: 0.042em;
+  line-height: 1.25;
+  color: $title-color;
+  @include adaptiv-font(40, 20);
+}
+
+.banner__item,
+.certificate__item {
+  max-width: 250px;
+  padding-left: 39px;
+  color: #a4aca8;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    font-family: "Flaticon";
+    content: "\f101";
+    font-size: 10px;
+    color: #fcfcfc;
+    left: 5px;
+    top: 5px;
+    z-index: 1;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: $green-gradient;
+    top: 0;
+    left: 0;
+  }
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  position: relative;
+  &::before {
+    font-family: "Flaticon";
+    @include adaptiv-font(22, 12);
+    color: $place-holder-color;
+    //content: "\f102";
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 1px;
+    background-color: $place-holder-color;
+    left: 51px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+input {
+  display: block;
+  font-family: 'SFProDisplay-Regular';
+  font-weight: 400;
+  letter-spacing: 0.042em;
+  //line-height: 3.67;
+  color: $place-holder-color;
+  @include adaptiv-font(15, 5);
+  padding: 26px 0 26px 67px;
+  border-radius: 10px;
+  border: none;
+  background-color: $grey-fon;
+  outline: none;
+}
+

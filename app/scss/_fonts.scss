@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'SFProDisplay-Medium';
+  src: url('../fonts/SFProDisplay-Medium.eot');
+  src: url('../fonts/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SFProDisplay-Medium.svg#SFProDisplay-Medium') format('svg'),
+  url('../fonts/SFProDisplay-Medium.ttf') format('truetype'),
+  url('../fonts/SFProDisplay-Medium.woff') format('woff'),
+  url('../fonts/SFProDisplay-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Regular';
+  src: url('../fonts/SFProDisplay-Regular.eot');
+  src: url('../fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg'),
+  url('../fonts/SFProDisplay-Regular.ttf') format('truetype'),
+  url('../fonts/SFProDisplay-Regular.woff') format('woff'),
+  url('../fonts/SFProDisplay-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MuseoSansCyrl-100';
+  src: url('../fonts/MuseoSansCyrl-100.eot');
+  src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg'),
+  url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'),
+  url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-100.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather-Light';
+  src: url('../fonts/Merriweather-Light.eot');
+  src: url('../fonts/Merriweather-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Merriweather-Light.svg#Merriweather-Light') format('svg'),
+  url('../fonts/Merriweather-Light.ttf') format('truetype'),
+  url('../fonts/Merriweather-Light.woff') format('woff'),
+  url('../fonts/Merriweather-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoschSerif-Regular';
+  src: url('../fonts/BoschSerif-Regular.eot');
+  src: url('../fonts/BoschSerif-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/BoschSerif-Regular.svg#BoschSerif-Regular') format('svg'),
+  url('../fonts/BoschSerif-Regular.ttf') format('truetype'),
+  url('../fonts/BoschSerif-Regular.woff') format('woff'),
+  url('../fonts/BoschSerif-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoschSerif-Bold';
+  src: url('../fonts/BoschSerif-Bold.eot');
+  src: url('../fonts/BoschSerif-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/BoschSerif-Bold.svg#BoschSerif-Bold') format('svg'),
+  url('../fonts/BoschSerif-Bold.ttf') format('truetype'),
+  url('../fonts/BoschSerif-Bold.woff') format('woff'),
+  url('../fonts/BoschSerif-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+  Flaticon icon font: Flaticon
+  Creation date: 12/05/2020 10:19
+  */
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Flaticon.woff2") format("woff2"),
+  url("../fonts/Flaticon.woff") format("woff"),
+  url("../fonts/Flaticon.ttf") format("truetype"),
+  url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+.flaticon-communications:before {
+  content: "\f100";
+}
+
+.flaticon-shapes-and-symbols:before {
+  content: "\f101";
+}
+
+.flaticon-avatar:before {
+  content: "\f102";
+}
+
+.flaticon-communications-1:before {
+  content: "\f103";
+}
+
+.flaticon-shapes-and-symbols-1:before {
+  content: "\f104";
+}
+
+.flaticon-powerpoint:before {
+  content: "\f105";
+}
+
+.flaticon-logo:before {
+  content: "\f106";
+}
+
+.flaticon-brands-and-logotypes:before {
+  content: "\f107";
+}
+
+.flaticon-phone-call:before {
+  content: "\f108";
+}
+
+.flaticon-signs:before {
+  content: "\f109";
+}
